@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+body { /*fondo de detras*/
+    margin: 0;
+    background-color: rgb(85, 148, 145);
+}
+a {
+    text-decoration: none;
+}
+.container { /*contenido de nuestra pagina*/
+    width: 90%;
+    margin: 0 auto;
+    background-color: #21346c;
+}
+header { /*cabecera*/
+    background-image: url(../img/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 150px;
+}
+footer { /*parte de abajo*/
+    background-color:#29282d;
+    color: #69dfe1;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+nav { /*barra lateral*/
+    width: 20%;
+    background: #69dfe1;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 30px;
+    font-family: 'calibri';
+    font-size: 20px;
+}
+
+#content { /*contenido inicial*/
+    width: 78%;
+    float: right;
+    padding: 0 1%;
+}
+
+#home { /*seccion home*/
+    text-align: center;
+    padding-top: 0px;
+}
+
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(16, 10, 83);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 20px;
+   border: solid 2px rgb(78, 69, 168);
+}
+nav ul li:hover {
+    color:  rgb(216, 213, 247);
+    background-color: rgb(16, 10, 83);
+}
+.txt-center {
+    text-align: center;
+}
+.tag {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.txt-azul {
+    color: blue;
+}
+.caja {
+    width: 200px;
+    background-color: rgb(130, 130, 160);
+    text-align: center;
+    padding: 40px 0;
+}
+/*    desordenada customizada */
+ul.ldc li {
+    list-style-type: square;
+}
+ul.ldc li ul li{
+    list-style-type: circle;
+}
+ul.ldc li ul li ul li{
+    list-style-type: disc;
+}
+/*    ordenada customizada */
+ol.loc li {
+    list-style-type: upper-alpha;
+}
+ol.loc li ol li{
+    list-style-type: upper-roman;
+}
+ol.loc li ol li ol li{
+    list-style-type: decimal;
+}
+ol.loci li ol li {
+    list-style-image: url(../img/heart.png);
+}
+ol.loci li ol li ol li {
+    list-style-type: lower-alpha;
+    list-style-image: none;
+}
+dt {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+table.te th {
+    background-color: rgb(10, 10, 117);
+    color: aqua;
+    font-size: 28px;
+}
+table.te td{
+    background-color: aqua;
+    color: rgb(10, 10, 117);
+}
+table.centered td {
+    text-align: center;
+}
+table.striped tr:nth-child(odd) {
+    background-color: rgb(198, 255, 236);
+}
+table.striped tr:nth-child(even) {
+    background-color: rgb(253, 207, 239);
+}
+form.registro {
+    width: 60%;
+    background: white;
+}
+.w100 {
+    width: 99%;
+}
+.w50 {
+    width: 49%;
+}
+textarea[name="comentarios"] {
+    max-width: 50%;
+    border-radius: 20%;
+    font-family: 'calibri';
+}
+.fl {
+    display: block;
+    float: left;
+    font-family: 'calibri';
+}
+audio {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+*{ /*formulariohtml5*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding:  30px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a{
+    color:white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}

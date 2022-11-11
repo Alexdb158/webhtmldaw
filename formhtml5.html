@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function updateTxtRange(valor) {
+            document.getElementById('idrange').value = valor
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formhtml5">
+                    <h1 class="txt-center">Formularios HTML5</h1>
+                <form>
+                    <section class="form-register">
+                        <h4>Formulario Registro</h4>
+                        <input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su Nombre">
+                        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+                        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                        <input class="botons" type="submit" value="Registrar">
+                        <p><a href="#">¿Ya tengo Cuenta?</a></p>
+                    </section>
+                    
+                </form>
+                    <p></p>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Alejandro Diaz - S1DAW</footer>
+    </div>
+</body>
+</html>
